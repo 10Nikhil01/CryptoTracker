@@ -48,7 +48,7 @@ function LandingComponent() {
         <motion.img
           src={iPhone}
           className="phone"
-          initial={{ y: -5 }}
+          initial={{ y: -10 }}
           animate={{ y: 5 }}
           transition={{
             type: "smooth",
